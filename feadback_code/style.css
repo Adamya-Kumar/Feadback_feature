@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+.feedback-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(119, 232, 213);
+
+}
+
+.rating {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.rating label:hover,
+.rating label:hover~label {
+    color: orange;
+}
+
+.rating input:checked~label {
+    color: orange;
+}
+
+.comment {
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.comment textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.feedback-form {
+    text-align: center;
+    /* border: 2px solid rgb(245, 245, 245,0.5); */
+    box-shadow: 20px 20px 50px 15px grey;
+    border-radius: 5%;
+    height: 30em;
+    width: 1000px;
+
+
+}
+
+.feedback-form:hover {
+    box-shadow: 40px 40px 60px 20px grey;
+}
+
+#comment {
+    background-color: rgb(119, 232, 213);
+    border: 2px solid black;
+
+}
